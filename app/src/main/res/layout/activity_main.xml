@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/duljinaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Duljina"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/masaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Masa"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/povrsinaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Površina"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/temperaturaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Temperatura"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/volumenBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Volumen"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/dataBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Data"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/brzinaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Brzina"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/frekvencijaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Frekvencija"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/energijaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Energija"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/gorivoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Gorivo"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/tlakBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Tlak"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/kutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Kut"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/oAutoruBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="O autoru"
+            android:textSize="24sp" />
+    </LinearLayout>
+</ScrollView>
